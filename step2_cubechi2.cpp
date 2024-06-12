@@ -685,7 +685,7 @@ int main() {
 		Cubepair_in.compare();
         
         fclose(fp_out);
-        printf("\nSaved: %s\n\n", outfilename);
+        if (saveRegrid) printf("\nSaved: %s\n\n", outfilename);
 		
     }
 	
