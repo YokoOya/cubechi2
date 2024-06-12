@@ -458,7 +458,7 @@ void Cubepair::calcRatio() {
 	
 	
 	if (ndatapoints4weight == 0) {
-		printf("\n\tERROR :: There is no data point for calculating the normalization constant.  Check the threshold level. \n\n");
+		printf("\n\tWARN :: There is currently no data point for calculating the normalization constant.  You may need to check the threshold level. \n\n");
 		//exit(1);
 	}
 	
