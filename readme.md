@@ -37,7 +37,7 @@ This script calculate the chi-squared values between 2 FITS cube files.
 The chi-squared values can be calculated even with other manners for the axes and units. 
 See below for the details of 'template.in'.
 
-
+You can save the model data re-gridded to have the same grid as the observation data by setting 'saveRegrid' to be true on l.24. 
 
 ## step3-1_plot.py
 
